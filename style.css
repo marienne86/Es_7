@@ -1,0 +1,95 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+}
+
+#orange {
+  background-color: #ffc788;
+}
+
+#yellow {
+  background-color: #ffff92;
+}
+
+#red {
+  background-color: #ff919c;
+}
+
+#blue {
+  background-color: #98d2ff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Spaziatura uniforme tra le sezioni */
+  flex-wrap: wrap; /* Permette di andare a capo */
+}
+
+section {
+  padding: 2em; /* Padding interno */
+  margin: 1em; /* Margine esterno */
+  flex: 1; /* Flessibilità per occupare uguale spazio */
+  min-width: 150px; /* Larghezza minima per le sezioni */
+  border-radius: 8px; /* Angoli arrotondati */
+  color: black; /* Colore del testo */
+}
+
+#green {
+  background-color: #8ffda7; /* Verde */
+}
+
+#orange {
+  background-color: #ffc788; /* Arancione */
+}
+
+#yellow {
+  background-color: #ffff92; /* Giallo */
+}
+
+#red {
+  background-color: #ff919c; /* Rosso */
+}
+
+#blue {
+  background-color: #98d2ff; /* Blu */
+}
+
+ul {
+  padding: 0; /* Rimuove il padding */
+  list-style-type: none; /* Rimuove i puntini dagli elenchi */
+}
+
+li {
+  background-color: white; /* Colore di sfondo per gli elementi della lista */
+  padding: 1em; /* Padding interno degli elementi della lista */
+  display: block; /* Display block per prendere l'intera larghezza */
+  margin: 0.5em 0; /* Spaziatura verticale tra gli elementi della lista */
+  border-radius: 4px; /* Angoli arrotondati per gli elementi della lista */
+}
